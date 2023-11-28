@@ -1,5 +1,8 @@
 use hippo_jenn;
 
+-- Add a TRUNCATE query to delete all records from the table before inserting
+TRUNCATE albums;
+
 INSERT INTO albums (artist, name, release_date, sales, genre)
 VALUES
     ('Michael Jackson', 'Thriller', '1982', '51.2', 'pop, post-disco, funk, rock'),

@@ -20,3 +20,4 @@ use hippo_jenn;
     SET artist = 'Peter Jackson'
     WHERE artist = 'Michael Jackson';
     SELECT artist FROM albums;
+
