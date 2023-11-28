@@ -1,8 +1,12 @@
 use hippo_jenn;
 
 -- Write SELECT statements to output each of the following with a caption:
--- All albums in your table
-    --select * FROM albums AS 'All albums in your table';
+    -- All albums in your table
+        select * FROM albums;
+    -- All albums released before 1980
+        select * from albums where release_date < 1980;
+    -- All albums by Michael Jackson
+        select * from albums where artist = 'Michael Jackson'
 
 -- After each SELECT add an UPDATE statement to:
     -- Make all the albums 10 times more popular (sales * 10)
