@@ -15,8 +15,9 @@ use hippo_jenn;
     SELECT sales FROM albums;
     -- Move all the albums before 1980 back to the 1800s.
     UPDATE albums
-    SET release_date = '1800-01-01'
-    WHERE release_date < '1980-01-01';
+    SET release_date = '1800'
+    -- SET release_date = release_date - 100
+    WHERE release_date < '1980';
     SELECT release_date FROM albums;
 
 -- Change 'Michael Jackson' to 'Peter Jackson'
