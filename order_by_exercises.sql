@@ -1,6 +1,7 @@
 use employees;
 
     -- ORDER BY EXERCISE
+
 -- Modify your first query to order by first name. The first result should be Irena Flexer and the last result should be Vidya Awdeh
 --SELECT first_name, last_name
 --FROM employees
